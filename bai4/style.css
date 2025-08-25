@@ -1,0 +1,25 @@
+h1{
+    background-color: darkgrey;
+}
+h2{
+    background-color: darkgreen;
+}
+.box1{
+    background-color: red;
+    
+}
+.box2{
+    background-color: yellow;
+    /* 1 gia tri (cach xung quanh = gia tri do)*/
+    /*2 gia tri gia tri dau tien ( tren,duoi)
+        gia tri thu 2 ( trai ,phai) */
+    /* 4 gia tri tren-> phai-> duoi -> trai */
+    margin: 50px 10px 100px 30px;
+    width: 50%;
+   /* auto can khoi ra giua*/
+   margin: 50px auto;
+   padding: 100px ;
+}
+.box3{
+    background-color: green;
+}
