@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+nav{
+    background-color: #0c4ca3;
+    
+}    
+ul{
+    list-style: none;
+    justify-content: center;
+       display: flex;
+       gap: 20px;
+   }
+   li{
+    padding: 15px;
+   }
+   .border{
+    border-right: 1px solid grey;
+   }
+.danhmuc-lienket{
+    color:white;
+    text-decoration: none;
+    font-family: Roboto, Arial, Tahoma;
+}
+
+.banner-qc{
+    display: flex;
+    justify-content: center;
+}
+
+.qc{
+    display: flex;
+    justify-content: space-between;
+}
+  
+header{
+    border-bottom: 15px solid #f1f1f1;
+}
+.tintuc{
+    display: flex;
+    justify-content: space-between;
+}   
