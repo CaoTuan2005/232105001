@@ -1,0 +1,29 @@
+.library{
+    justify-content: space-between;
+}
+.thuvien{
+    align-items: space-between;
+    color:white
+}
+.option{
+    margin : 10px;
+    padding : 10px;
+    align-items: space-between;
+}
+.list1{
+    align-items: space-between;
+}
+.text{
+    font-size: 10px;
+}
+.menu{
+    margin : 10px;
+    padding : 10px;
+    align-items: space-between;
+}
+.searching{
+    margin : 10px;
+    padding : 10px;
+    align-items: center;
+    display : inline-block;
+}
