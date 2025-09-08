@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+}
+nav {
+    background-color: #0c4ca3;
+}
+ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+li {
+    padding: 15px;
+}
+.border {
+    border-right: 1px solid grey;
+}
+.danhmuc-lienket {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, Arial, Tahoma;
+}
+
+.banner-qc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.qc {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.anh-qc img {
+    max-width: 100%;
+    height: auto;
+ 
+}
+
+header {
+    border-bottom: 15px solid #f1f1f1;
+}
+
+.tintuc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c9cacc;
+    
+}
+.noidungtintuc {
+    display: flex;
+    height: 553px;
+    width: 1160px;
+ 
+}
+.anhqc1 img,
+.anhqc2 img,
+.anhqc3 img,
+.anhqc4 img {
+    height: 175px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.anhqc1,
+.anhqc2,
+.anhqc3,
+.anhqc4 {
+    padding: 10px;
+    margin: 10px;
+    width: 500x;
+    height: 350px;
+
+}
+
+.list1 {
+    margin-top: 10px;
+    
+}
+.text {
+    color: #333;
+}
+.news__banner {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.news-banner {
+     max-width: 100%;
+    height: auto
+}
+.noidungthongbao{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.column-1 {
+    width: 50%;
+}
+.clickformoreinfo {
+    margin-top: 15px;
+    display: block;
+    text-align: right;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000714;
+}
+.noidungtuyensinh {
+    display: flex;
+    height: 553px;
+    width: 1160px;
+}
+.anhts1 img,
+.anhts2 img,
+.anhts3 img,
+.anhts4 img {
+    height: 175px;
+    width: 268,8px;
+    
+}
+
+.anhts1,
+.anhts2,
+.anhts3,
+.anhts4 {
+    padding: 10px;
+    margin: 10px;
+    width: 500x;
+    height: 350px;
+
+}
+.hoatdongsinhvien {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000714;
+}
+.noidunghoatdongsinhvien {
+    display: flex;
+    height: 553px;
+    width: 1160px;
+}
+.anhsv1 img,
+.anhsv2 img,
+.anhsv3 img,
+.anhsv4 img {
+    height: 130px;
+    width: 259,06px;
+    
+}
+
+.anhsv1,
+.anhsv2,
+.anhsv3,
+.anhsv4 {
+    padding: 10px;
+    margin: 10px;
+    width: 500x;
+    height: 350px;
+
+}
+.doitac {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000714;
+}
+.noidungdoitac {
+    display: flex;
+    height: 553px;
+    width: 1160px;
+   
+}
+.doitac2 img {
+    border : 1px solid #cfcfcf;
+    height: 187px;
+    width: 187px;
+    margin: 10 px ;
+    padding : 10 px ;
+}
+
+footer {     
+    background-color: #0c4ca3;
+   
+    
+}
