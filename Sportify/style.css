@@ -1,29 +1,113 @@
-.library{
-    justify-content: space-between;
+.body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
 }
-.thuvien{
-    align-items: space-between;
-    color:white
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  padding: 10px 20px;
 }
-.option{
-    margin : 10px;
-    padding : 10px;
-    align-items: space-between;
+
+.menu_left{
+  color: white;
+  display: flex;
+  align-items: center;
 }
-.list1{
-    align-items: space-between;
+.menu_right{
+  color: white;
+  display: flex;
+  align-items: center;
 }
-.text{
-    font-size: 10px;
+
+.menu_center{
+  color: white;
 }
-.menu{
-    margin : 10px;
-    padding : 10px;
-    align-items: space-between;
+
+.icon {
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: white;
+  margin: 0 5px;
+  cursor: pointer;
 }
-.searching{
-    margin : 10px;
-    padding : 10px;
-    align-items: center;
-    display : inline-block;
+.main_body_right{
+  background-color: rgb(29, 27, 27);
+  padding: 20px;
+  font-size: 20px;
+
 }
+.icon_search {
+  width: 400px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #2c2c2c;
+  color: white;
+}
+.main_body_center{
+  
+    overflow: auto;
+}
+.main_body_left{
+  background-color: rgb(59, 57, 57);
+  width: 200px;
+  font-size: 8px;
+  overflow: auto;
+}
+.main_body_left_1{
+  display: flex;
+  justify-content:center;
+}
+.main_body_left_2{
+    padding: 10px;
+    
+}
+
+.create{
+  font-size: large;
+  width: 75px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+
+.danhsach_1{
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list{
+  display: flex;
+  justify-content: baseline;
+
+}
+
+.main_body{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer{
+  background-color: rgb(29, 27, 27);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
