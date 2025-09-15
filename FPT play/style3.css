@@ -1,0 +1,9 @@
+container{
+    width: 100%;
+    justify-content: center;
+}
+.chucnang{
+    width: 70%;
+    background-color: rgb(253, 253, 253);
+    align-items: center;
+}
