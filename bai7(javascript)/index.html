@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai7JavaScript</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <script>
+        // JavaScript dùng để nối chuỗi  dung dau + ""
+        // để viết chú thích  js dùng kí tự //
+        document.writeln("hello world" + "<br>");
+        // khai bao bien dung let ten bien hoac var tenbien
+        let hoten ="Cao Thai Tuan";
+        document.writeln(hoten + "<br>"); 
+        // hằng ko thể thay đổi giá trị còn biến có thể thay đổi giá trị
+            const pi =3.14;
+    </script>
+    <script>
+        // let sothu1 = 10;
+        let sothu2 = 5;
+        let ketqua = 0;
+        sothu1 +=sothu2;
+        document.writeln(sothu1);
+        //sothu1 = sothu1 + sothu2
+       // let sothu1 = 10;
+        // let sothu2 = 5;
+        // let ketqua = 0;
+        // ketqua = sothu1 / sothu2;
+        // ketqua++;//them 1 don vi
+        // ketqua--;//giam 1 don vi
+        // document.writeln(ketqua--);// in ra kqua truoc roi moi cộng
+    </script>
+    <!-- <script>
+        // phep tru
+        let sothu1 = 10;
+        let sothu2 = 5;
+        let ketqua = 0;
+        ketqua = sothu1 - sothu2;
+        document.writeln(ketqua);
+    </script> 
+    <script>
+        // phep nhan
+        let sothu1 = 10;
+        let sothu2 = 5;
+        let ketqua = 0;
+        ketqua = sothu1 * sothu2;
+        document.writeln(ketqua);
+    </script> 
+     <script>
+        // phep chia
+        let sothu1 = 10;
+        let sothu2 = 5;
+        let ketqua = 0;
+        ketqua = sothu1 / sothu2;
+        document.writeln(ketqua); -->
+
+    </script>
+    <script>
+        let soa = 10;
+        let sob = "10"; // "5" luc nay tro thanh chuỗi!
+        ketqua = soa + sob;
+        document.writeln(!(soa !== sob));  // dung 2 dau = k qtam kieu du lieu trong xét bằng nhau xet gtri
+                                        //con neu dung 3 dau = thi se qtam den gia tri va kieu du lieu
+                                        // ! là phủ định
+                                        // let ketqua; ra man hinh la undefind la k gtri 
+         let thongtinSinhVien = {
+            hoten:"cao thai tuan",
+            tuoi :20,
+            gioitinh:true,
+            lop :"cong nghe thong tin k68"
+         }
+         let diachiCaoTuan = {
+            thanhpho:"Hà Nội",
+            quanhuyen:"Dan phuong",
+            duong:"ha mo ",
+            sonha:10
+         }
+         let namnay=2025
+         thongtinSinhVien.diachiCaoTuan = diachiCaoTuan;
+         thongtinSinhVien.namnay = namnay;
+         document.writeln("xin chao" +  thongtinSinhVien.hoten + " " + " lop " +thongtinSinhVien.lop + "nha o "+thongtinSinhVien.diachiCaoTuan.sonha +  
+         thongtinSinhVien.diachiCaoTuan.thanhpho
+         +"Nam nay :" + (namnay  - thongtinSinhVien.tuoi)   );
+         let sothu1 ="10";
+            parseInt(sothu1);
+            sothu1
+         document.writeln(typeof (sothu1));      
+                              
+    </script>
+</body>
+</html>
