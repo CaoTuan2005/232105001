@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let thongtinkhachhang = {
+        hoten:"Cao Thai Tuan",
+        phonennumber :"0392413766",
+        danhsachsanpham:{
+        masanpham :"A120",
+        Tensanpham:"tra da",
+        soluong : 5,
+        giatien:10000
+        },
+        thanhtoan:true,
+        diaChi:"co nhue,ha noi",
+    }
+    document.writeln("Gia tien cua don hang la " + thongtinkhachhang.danhsachsanpham.soluong *thongtinkhachhang.danhsachsanpham.giatien +"<br>" )
+   </script> 
+   <script>
+    let mystring = "Hello kien"
+    document.writeln(mystring.length)
+    document.writeln(mystring[4])
+    document.writeln(mystring.slice(1,4))
+    document.writeln(mystring.replace(" ","hi"))
+    document.writeln(mystring.indexOf("a")) // có trả ra vị trí kí tự không có trả ra -1
+    document.writeln(mystring.includes("e")) // kiểm tra có chứa kí tư đó hay không?
+    document.writeln(mystring.toLocaleLowerCase()+"<br>") // đổi chữ hoa thành chữ thường
+    // tach chuỗi thành mảng split
+    document.writeln(mystring.split(" "))
+    document.writeln(mystring.startsWith("kien"))
+    document.writeln(isNaN("10"))
+    let today = new Date() // neu nhet vao "" sẽ cho ra ngày giờ mong muốn
+    document.writeln(today)
+    //lay ra nam "getfullyear"
+    // lay ra tjamg : getMonth
+    // lay ngay : getdate
+    document.writeln(today.getFullYear())
+    document.writeln(today.getMonth())
+    document.writeln(today.getDate())
+     document.writeln(today.getHours())
+      document.writeln(today.getMinutes())
+       document.writeln(today.getSeconds())
+   </script>
+   
+</body>
+</html>
