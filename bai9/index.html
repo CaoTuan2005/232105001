@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai9(Javascript)</title>
+</head>
+<body>
+    <script>
+        //Mảng java script
+        // let arr =[1,2,3,4,'a','b','c',2,3];
+        // arr[3]=6;
+        // let ten = 'ten';
+        // let thongTin={
+        //     ten:ten
+        // }
+        // document.writeln(Array.isArray(arr)); //kiểm tra xem có phải mảng k (array) Array.isArray()
+        // document.writeln(arr.length); // ten bien . lengt cho biết độ dài của mảng
+        // document.writeln(arr[2]) // lấy vị trí trong mảng chạy bất đầu từ không 
+        // document.writeln(arr.indexOf(3)); // trả lại vị trí 
+        // document.writeln(arr.lastIndexOf(3)+'<br>');// trả lại vị trí cuối cùng 
+        // document.writeln(arr+"<br>")
+        // let a,b,c,d;
+        // a=[1,2,3];
+        // b="javascript";
+        // c=[42,"js"];
+        // d=a.concat(b,c);// gộp các mảng với nhau bằng concat mảng a với b c 
+        // // d=d.join("/")//biến 1 mảng thành 1 chuỗi
+        // d.pop(); // bỏ đi phần tử trong mảng
+        // d.push("abc"); // đẩy phần tử vào trong mảng
+        // d.reverse();
+        // // shift xoá phần tử đầu tiên 
+        // d.shift();
+        // // unshift thêm phần tử vào đầu mảng 
+        // d.unshift;
+        // document.writeln(d);
+        // // các câu lệnh điều kiện if /else
+        // let so = "1000000000000000000000001";
+        // let soCuoi  = parseInt(so[so.length-1]) // parseInt là gán thành kiểu số 
+        // if (soCuoi %2==0){
+        //     document.writeln(so+" la so chan")
+        // }
+        // else{
+        //     document.writeln(so+" la so le")
+        // }
+        // let now = new Date().getHours();
+        // debugger
+        // if ( now >=5 && now < 10){
+        //     document.writeln("chao buoi sang");
+        // }
+        // else if (now>=10 && now < 13 ){
+        //     document.writeln("chao buoi trua");
+        // }
+        // else if (now >=  13 && now <= 17){
+        //     document.writeln("chao buoi chieu");
+        // }
+        // else if ( now > 17 && now < = 22 ){
+        //     document.writeln("chao buoi toi");
+        // }
+        // else(){
+        //     document.writeln("chao buoi dem");
+        // }
+        //a,b,c
+        // tổng = điểm a nhận 0,6 cộng điểm b nhận 0,3 cộng điểm c =0.1
+        // tổng nằm trong khoảng 8 đến 10 :điểm AbortController
+        // 7-8 -> B
+        // 5-7 -> C
+        // 4-5-> D
+        // nhỏ hơn 4 -> f
+        let a = 9;
+        let b = 8;
+        let c = 10;
+        tongdiem=a*0.6+b*0.3+c*0.1;
+        if(tongdiem=7 && tongdiem <=8){
+            document.writeln("duoc B")
+        }
+        else if ( tongdiem >=5 && tongdiem<7){
+            document.writeln("duoc C")
+        }
+        else if ( tongdiem>= 4 && tongdiem <5){
+            document.writeln("duoc D")
+        }
+        else if (tongdiem <4){
+            document.writeln("duoc F")
+        }
+        else{
+            document.writeln("duoc A")
+        }
+        
+
+    </script> 
+</body>
+</html>
