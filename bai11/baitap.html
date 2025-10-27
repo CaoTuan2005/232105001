@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TInh tong </h1>
+    <h3> Biet tong diem = A*0,6 + B*0,3+C*0,1 </h3>
+       <div> Nhập điểm A
+        <input type="number" id ="diemA">
+        </div>
+        <div>
+        Nhập điểm B
+        <input type="number" id="diemB">
+        </div>
+        <div>
+        Nhập điểm C
+        <input type="number" id="diemC">
+        </div>
+        <button onclick="tinhDiem()">Tính</button>
+        <div>
+        Kết quả: <input type="text" id="ketQua">
+        </div>
+
+    <script>
+    function tinhDiem() {
+        let diemA =parseFloat (document.getElementById("diemA").value);
+        let diemB =parseFloat (document.getElementById("diemB").value);
+        let diemC =parseFloat (document.getElementById("diemC").value);
+        let canhBao = "";
+        let tongDiem = diemA*0.6 + diemB*0.3 + diemC*0.1;
+        if (0 < diemA && diemA > 10){
+            canhBao +="Điểm A không hợp lệ"
+        }
+         if (0<diemB && diemB>10){
+            canhBao +="Điểm B không hợp lệ"
+        }
+         if (0<diemC && diemC>10){
+            canhBao +="Điểm C không hợp lệ"
+        }
+        if (canhBao){
+            alert(canhBao);
+            return;
+       }
+       if (tongDiem < 4) {
+            document.getElementById("ketQua").value = "F";
+        }
+        else if (tongDiem >= 4 && tongDiem < 5) {
+            document.getElementById("ketQua").value = "D";
+        }
+        else if (tongDiem >= 5 && tongDiem < 7) {
+            document.getElementById("ketQua").value = "C";
+        }
+        else if (tongDiem >= 7 && tongDiem < 8) {
+            document.getElementById("ketQua").value = "B";
+        }
+        else if (tongDiem >= 8 && tongDiem <= 10) {
+            document.getElementById("ketQua").value = "A";
+        } 
+       
+    }
+    </script>
+</body>
+</html>

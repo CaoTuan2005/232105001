@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TInh tong </h1>
+    <div>
+        Nhap so thu 1 :
+        <input type="number" id="Sothu1">
+    </div>
+    <div>
+        Nhap so thu 2 :
+        <input type="number" id="Sothu2">
+    </div>
+    <div>
+        <button onclick="tinhtong()">Tinh tong</button>
+    </div>
+    <div>Ket qua <input type="number" id="ketqua" class="ketqua"></div>
+    <script>
+        // let Nhap = prompt ("Nhap 1 so bat ki");
+        // document.writeln(ten);
+        // function nullnumb (){
+        // return Nhap;
+        // }
+        // document.writeln(nullnumb())
+        // function cothamso(Nhap){
+        //     if (!Nhap){
+        //         document.writeln("Nhap lai!")
+        //     }
+        //     for(let i=0;i<=Nhap;i++){
+        //         document.writeln("xin chao " + i +"<br>")
+                
+        //     }
+        // }
+        // cothamso(Nhap);
+        function tinhtong(){
+            // Lỗi 1 & 2 đã sửa: Dùng đúng ID 'Sothu1' (chữ S hoa) và cú pháp parseFloat(element.value)
+            let soThu1 =  parseFloat(document.getElementById('Sothu1').value);
+            let soThu2 =  parseFloat(document.getElementById('Sothu2').value);
+            
+            let canhbao = "";
+
+            // Kiểm tra NaN (Not a Number) thay vì chỉ kiểm tra falsy (như 0)
+            if (isNaN(soThu1)){
+                canhbao += "Vui long nhap lai so thu 1. ";
+            }
+            if(isNaN(soThu2)){
+                canhbao +="Vui long nhap lai so thu 2. ";
+            }
+
+            if(canhbao){
+                alert(canhbao);
+                // Nếu có lỗi, đặt kết quả về trống để tránh hiển thị NaN
+                document.getElementById("ketqua").value = '';
+                return; // Ngừng thực thi hàm
+            }
+
+            let tong = soThu1 + soThu2;
+            
+            // Lỗi 3 đã sửa: Dùng ID 'ketqua'
+            document.getElementById("ketqua").value = tong;
+        }
+    </script>
+  
+        
+</body>
+</html>
