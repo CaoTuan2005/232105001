@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="Tinh chi so">
+    <h1>Tinh chi so BMI</h1>
+    Nhap can nang
+    <input type="number" id="weight" placeholder="Nhập cân nặng" required>
+    </div>
+    <div>Nhap chieu cao
+        <input type="number" id="height" placeholder="Nhập chieu cao" required>
+    </div>
+    <div>ket qua <input type="number" id=" ketQua" /></div>
+    <div>
+    <button>Tinh chi so BMI</button>
+    </div>
+    </div>
+    <script>
+        function tinhToan() {
+            let chieuCao = parseFloat(document.getElementById("chieuCao").value);
+            let canNang = parseFloat(document.getElementById("canNang").value);
+            let canhBao = "";
+            if (!chieuCao) {
+            canhBao += "Chưa nhập chiều cao";
+            }
+            if (!canNang) {
+                canhBao += "Chưa nhập cân nặng";
+            }
+            if (canhBao) {
+            alert(canhBao);
+            }
+            let bmi = canNang / (chieuCao * chieuCao);
+            let phanLoai = "";
+            let hinhAnh = "";
+            if (bmi < 18.5) {
+                phanLoai = "gay thieu can";
+                hinhAnh = "thieucan.jpg"; 
+            }   
+            else if (bmi >= 18.5 && bmi <= 24.9) {
+                phanLoai = "binh thuong";
+                hinhAnh =  "binhthuong.jpg"; 
+            } 
+            else if (bmi >= 25.0 && bmi <= 29.9) {
+                phanLoai = "thua can ";
+                hinhAnh ="thuacan.jpg"; 
+            }
+            else {
+            phanLoai = "beo phi ";
+            hinhAnh = scr = "beophicap1-2"; 
+            }
+        }
+    </script>
+  </body>
+</html>
+</body>
+</html>

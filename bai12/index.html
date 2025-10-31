@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        text-align: center;
+    }
+    .container{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1> Vi du ve thay doi che do</h1>
+        <img  class = 'anh' src="image.png">
+    </div>
+    <div>
+        <h1>Che do sang</h1>    
+    </div>
+    <div>
+        <button onclick="doichedo()">Thay doi che do</button>
+    </div>
+    <script>
+        let chedo = true;
+
+        function doichedo(){
+            if (chedo ==true){
+                document.getElementsByTagName('h1')[0].style='color :yellow';
+                document.getElementsByTagName('body')[0].style='background-color:black';
+                document.getElementsByTagName('h1')[1].innerHTML = "Che do toi";
+                document.getElementsByTagName('h1')[1].style='color :white';
+                document.getElementsByClassName('anh')[0].scr='image copy.png';
+                 chedo = false;
+            }
+            else {
+                document.getElementsByTagName('body')[0].style='background-color:white';
+                document.getElementsByTagName('h1')[1].style='color :black';
+                document.getElementsByTagName('h1')[0].style='color :black';
+                document.getElementsByClassName('anh')[0].scr='image.png';
+                document.getElementsByTagName('h1')[1].innerHTML = "Che do sang";
+                chedo = true;
+
+            }
+
+}
+    </script>
+</body>
+</html>
