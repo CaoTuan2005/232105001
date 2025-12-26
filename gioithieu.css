@@ -1,0 +1,150 @@
+/* Toàn trang */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;      
+    color: #fff;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #ffcc00;               
+}
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px 30px;
+    background-color: #1c1c1c;    
+    border-radius: 12px;
+    border-left: 5px solid #ffcc00;
+    border-right: 5px solid #ffcc00; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
+.pt {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.pt img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+.footer {
+  background: #000; /* nền đen */
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Flex chia 2 phần: form và info */
+.footer .footer-content {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-box {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Form */
+.footer-box form input,
+.footer-box form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.footer-box form input::placeholder,
+.footer-box form textarea::placeholder {
+  color: #fff;
+}
+
+.footer-box form textarea {
+  height: 100px;
+}
+
+.footer-box form button {
+  padding: 8px 30px;
+  background: #c11325;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-box form button:hover {
+  background: none;
+  border: 1px solid #fff;
+}
+
+/* Text & info */
+.footer-box h3 {
+  color: #c11325;
+  margin-bottom: 10px;
+}
+
+.footer-box p,
+.footer .contact-info li {
+  margin-bottom: 10px;
+}
+
+/* Icon info */
+.footer .contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.footer .contact-info li {
+  position: relative;
+  padding-left: 25px;
+}
+
+.footer .contact-info li span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #c11325;
+}
+
+/* Social icons */
+.footer .social a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #c11325;
+  color: #fff;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.footer .social a:hover {
+  background: none;
+  border: 1px solid #fff;
+}
